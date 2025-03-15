@@ -1,5 +1,5 @@
 
-# Super Trunfo de Países
+# Super Trunfo de Cidades
 
 Este é um jogo desenvolvido em linguagem C que permite cadastrar informações de duas cidades e comparar suas cartas com base em diferentes atributos, como população, área, PIB, número de pontos turísticos e densidade demográfica.
 
@@ -73,4 +73,4 @@ Este é um jogo desenvolvido em linguagem C que permite cadastrar informações 
 
 ---
 
-Desenvolvido como parte do desafio do Super Trunfo de Países.
+Desenvolvido como parte do desafio de implementação da lógica do jogo Super Trunfo em linguagem C.

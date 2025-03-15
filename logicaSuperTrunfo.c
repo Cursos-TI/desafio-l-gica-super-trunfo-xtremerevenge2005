@@ -26,7 +26,7 @@ int main() {
     int opcao; // opção do menu
 
     // Saudações e instruções
-    printf("\nBem-Vindo ao Jogo Super Trunfo de Países!\n\n");
+    printf("\nBem-Vindo ao Jogo Super Trunfo de Cidades!\n\n");
     printf("----- INSTRUÇÕES -----\n\n");
     printf("1 - Você deverá inserir, em sequência, os dados de duas cidades, os quais serão, posteriormente, exibidos.\n");
     printf("2 - Após o cadastro, escolha o atributo para comparar as cartas:\n");
@@ -126,6 +126,7 @@ int main() {
     printf("4 - PIB\n");
     printf("5 - Número de pontos turísticos\n");
     printf("6 - Densidade demográfica\n");
+    printf("7 - PIB per Capita\n");
     printf("Sua opção: ");
     scanf("%d", &opcao);
 
@@ -190,6 +191,17 @@ int main() {
                 printf("Resultado: Carta 1 (%s) venceu!\n", nomeCidade1);
             else if (densidade1 > densidade2)
                 printf("Resultado: Carta 2 (%s) venceu!\n", nomeCidade2);
+            else
+                printf("Empate!\n");
+            break;
+        case 7:
+            printf("\nComparação de Cartas (Atributo: PIB per Capita):\n");
+            printf("Carta 1 - %s (%s): %.2f reais\n", nomeCidade1, estado1, pibPerCapita1);
+            printf("Carta 2 - %s (%s): %.2f reais\n", nomeCidade2, estado2, pibPerCapita2);
+            if (pibPerCapita1 > pibPerCapita2)
+                printf("Resultado: Carta 1 (%s) venceu!\n", nomeCidade1);
+            else if (pibPerCapita1 < pibPerCapita2)
+            printf("Resultado: Carta 2 (%s) venceu!\n", nomeCidade2);
             else
                 printf("Empate!\n");
             break;
