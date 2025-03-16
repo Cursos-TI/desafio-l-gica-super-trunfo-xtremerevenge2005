@@ -1,7 +1,7 @@
 
 # Super Trunfo de Cidades
 
-Este é um jogo desenvolvido em linguagem C que permite cadastrar informações de duas cidades e comparar suas cartas com base em diferentes atributos, como população, área, PIB, número de pontos turísticos e densidade demográfica.
+Este é um jogo desenvolvido em linguagem C que permite cadastrar informações de duas cidades e comparar suas cartas com base em diferentes atributos, como população, área, PIB, número de pontos turísticos, densidade demográfica e PIB per Capita.
 
 ## Pré-requisitos
 
@@ -64,7 +64,7 @@ Este é um jogo desenvolvido em linguagem C que permite cadastrar informações 
 ## Utilização do Programa
 
 - Após executar o programa, siga as instruções para cadastrar duas cidades.
-- Em seguida, escolha no menu interativo o atributo que deseja comparar (População, Área, PIB, Número de pontos turísticos ou Densidade demográfica).
+- Em seguida, escolha no menu interativo o atributo que deseja comparar (População, Área, PIB, Número de pontos turísticos, Densidade demográfica ou PIB per Capita).
 
 ## Observações
 
