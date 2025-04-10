@@ -24,11 +24,11 @@ Ao final, o programa também informa a cidade vencedora, considerada a que tiver
    ```
 3. Compile o código:
    ```bash
-   gcc main.c -o supertrunfo
+   gcc logicaSuperTrunfo.c -o logicaSuperTrunfo
    ```
 4. Execute o programa:
    ```bash
-   ./supertrunfo
+   ./logicaSuperTrunfo
    ```
 
 ### Windows
@@ -42,11 +42,11 @@ Ao final, o programa também informa a cidade vencedora, considerada a que tiver
    ```
 3. Compile o código:
    ```
-   gcc main.c -o supertrunfo.exe
+   gcc logicaSuperTrunfo.c -o logicaSuperTrunfo.exe
    ```
 4. Execute o programa:
    ```
-   supertrunfo.exe
+   logicaSuperTrunfo.exe
    ```
 
 #### Usando Compilador do Visual Studio
@@ -58,11 +58,11 @@ Ao final, o programa também informa a cidade vencedora, considerada a que tiver
    ```
 3. Compile o programa:
    ```
-   cl main.c
+   cl logicaSuperTrunfo.c
    ```
 4. Execute o programa:
    ```
-   main.exe
+   logicaSuperTrunfo.exe
    ```
 
 ## Utilização do Programa
@@ -74,7 +74,7 @@ Ao final, o programa também informa a cidade vencedora, considerada a que tiver
 
 ## Observações
 
-- Caso caracteres especiais não sejam exibidos corretamente, ajuste seu terminal para UTF-8.
+- Caso caracteres especiais não sejam exibidos corretamente, ajuste seu terminal para UTF-8. O comando `chcp 65001` no terminal do Windows ativa esses caracteres temporariamente.
 - Este projeto tem propósito didático.
 
 ---
